@@ -16,8 +16,17 @@ export const articlesData = [
 
     showPageContent: {
       title: "GRAND CRU MADE IN CHINA - Birth of a Wine Giant?",
-      subText:
-        "52 min Documentary Film on the Rise of the Chinese Wine industry. Featuring some of the most famous vineyards such as Kanaan, Silver Heights, Xige, Lafite Longdai and presented by Master of Wine Julien Boulard. Distributed in Mandarin, English and French.",
+      subText: (
+        <p>
+          52 min Documentary Film on the Rise of the Chinese Wine industry.
+          <br />
+          Featuring some of the most famous vineyards such as Kanaan, Silver
+          Heights, Xige, Lafite Longdai and presented by Master of Wine Julien
+          Boulard.
+          <br />
+          Distributed in Mandarin, English and French.
+        </p>
+      ),
       fileLinks: [
         {
           title: "",
@@ -38,8 +47,12 @@ export const articlesData = [
     showPageContent: {
       title:
         "BUDWEISER: REDIC | Poet, Musician, Artist, Fashion Designer | From Chicago To Shanghai",
-      subText:
-        "Sponsored Documentary Short for Budweiser US on an African-American multidisciplinary artist living in China.",
+      subText: (
+        <p>
+          Sponsored Documentary Short for Budweiser US on an African-American
+          multidisciplinary artist living in China.
+        </p>
+      ),
 
       fileLinks: [
         {
@@ -60,8 +73,13 @@ export const articlesData = [
 
     showPageContent: {
       title: "50 YEARS BELGIUM-CHINA: STORIES OF FRIENDSHIP",
-      subText:
-        "To celebrate the 50th anniversary of diplomatic relations between Belgium and China we filmed 11 documentary short films for the Belgian Embassy in China. These are a few of my favorite films:",
+      subText: (
+        <p>
+          To celebrate the 50th anniversary of diplomatic relations between
+          Belgium and China we filmed 11 documentary short films for the Belgian
+          Embassy in China. These are a few of my favorite films:
+        </p>
+      ),
 
       fileLinks: [
         {
@@ -137,52 +155,52 @@ export const articlesData = [
       fileLinks: [
         {
           title: "",
-          link: "https://youtu.be/6Ho_s4WES3U",
+          link: "https://www.youtube.com/embed/qluI0e_Dsv4",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/jLI7Jv4DSdA",
+          link: "https://www.youtube.com/embed/jLI7Jv4DSdA",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/Ru61r9Lwk2A",
+          link: "https://www.youtube.com/embed/Ru61r9Lwk2A",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/rnSoGrsXjg4",
+          link: "https://www.youtube.com/embed/rnSoGrsXjg4",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/f1eHHpyNLXY",
+          link: "https://www.youtube.com/embed/f1eHHpyNLXY",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/uWf2nZftRvQ",
+          link: "https://www.youtube.com/embed/uWf2nZftRvQ",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/-hYhHWqgCNc",
+          link: "https://www.youtube.com/embed/-hYhHWqgCNc",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/KkBUZ1z6tCQ",
+          link: "https://www.youtube.com/embed/KkBUZ1z6tCQ",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/R7JwejzNv6g",
+          link: "https://www.youtube.com/embed/R7JwejzNv6g",
           type: "video",
         },
         {
           title: "",
-          link: "https://youtu.be/qluI0e_Dsv4",
+          link: "https://www.youtube.com/embed/qluI0e_Dsv4",
           type: "video",
         },
       ],
