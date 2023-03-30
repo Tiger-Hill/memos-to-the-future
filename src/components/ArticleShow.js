@@ -16,7 +16,12 @@ const ArticleShow = () => {
           file.type === "video" && (
             <>
               {file.title && <p className="file-title">{file.title}</p>}
-              <iframe src={file.link} allowFullScreen allow="autoplay" alt="video which content matches the article title" />
+              <iframe
+                src={file.link}
+                allowFullScreen
+                title="video which content matches the article's title"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              ></iframe>
             </>
           )
         );

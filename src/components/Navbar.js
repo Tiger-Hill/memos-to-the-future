@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../images/mttf-logo.png"
 
 const Navbar = () => {
@@ -5,7 +6,10 @@ const Navbar = () => {
     <nav>
 
       <div className="navbar--main-content">
-        <img src={logo} alt="logo" />
+        <Link to={"/"}>
+          <img src={logo} alt="logo" />
+        </Link>
+
         <h1>
           <span className="author-name">CHRISTIAN PETERSEN-CLAUSEN</span>
           &nbsp;is a director based in Shanghai who creates documentary films and

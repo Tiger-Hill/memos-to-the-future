@@ -145,7 +145,7 @@ export const articlesData = [
           I conducted 30 interviews with fellow residents about their
           experiences. <br />
           The entire interview series can be found{" "}
-          <Link to={"https://twitter.com/chris__pc/status/1531177386246434816"}>
+          <Link to={"https://twitter.com/chris__pc/status/1531177386246434816"} target="_blank">
             in this Twitter thread
           </Link>
           .
@@ -155,52 +155,52 @@ export const articlesData = [
       fileLinks: [
         {
           title: "",
-          link: "https://www.youtube.com/embed/qluI0e_Dsv4",
+          link: "https://www.youtube-nocookie.com/embed/qluI0e_Dsv4",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/jLI7Jv4DSdA",
+          link: "https://www.youtube-nocookie.com/embed/jLI7Jv4DSdA",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/Ru61r9Lwk2A",
+          link: "https://www.youtube-nocookie.com/embed/Ru61r9Lwk2A",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/rnSoGrsXjg4",
+          link: "https://www.youtube-nocookie.com/embed/rnSoGrsXjg4",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/f1eHHpyNLXY",
+          link: "https://www.youtube-nocookie.com/embed/f1eHHpyNLXY",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/uWf2nZftRvQ",
+          link: "https://www.youtube-nocookie.com/embed/uWf2nZftRvQ",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/-hYhHWqgCNc",
+          link: "https://www.youtube-nocookie.com/embed/-hYhHWqgCNc",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/KkBUZ1z6tCQ",
+          link: "https://www.youtube-nocookie.com/embed/KkBUZ1z6tCQ",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/R7JwejzNv6g",
+          link: "https://www.youtube-nocookie.com/embed/R7JwejzNv6g",
           type: "video",
         },
         {
           title: "",
-          link: "https://www.youtube.com/embed/qluI0e_Dsv4",
+          link: "https://www.youtube-nocookie.com/embed/qluI0e_Dsv4",
           type: "video",
         },
       ],
