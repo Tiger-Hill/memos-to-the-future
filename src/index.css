@@ -16,6 +16,7 @@ body {
 
 #root {
   width: 80%;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
@@ -94,21 +95,21 @@ article {
   margin: 0 auto 5rem;
 }
 
-article .image-container {
+/* article .image-container {
   width: 100%;
   display: flex;
   overflow: hidden;
-}
+} */
 
 article img {
   width: 100%;
   height: 100%;
-  transition: 0.2s ease-in;
+  transition: 0.2s;
 }
 
 article img:hover {
-  transition: 0.2s ease-out;
-  scale: 1.02;
+  transition: 0.2s;
+  scale: 1.01;
 }
 
 article h2 {
