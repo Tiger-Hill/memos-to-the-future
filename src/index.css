@@ -23,6 +23,10 @@ body {
   padding: 5rem 0;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 @media (max-width: 900px) {
   html {
     font-size: 52.5%;
@@ -195,4 +199,52 @@ article p {
   .article-show iframe {
       height: initial;
   }
+}
+
+
+/* ! FOOTER */
+footer {
+  margin-top: 5rem;
+}
+
+.contact-container {
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 2.5rem;
+}
+
+.contact-container div {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.contact-container p {
+  margin-bottom: 1rem;
+}
+
+.contact-container span {
+  font-weight: bold;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-media-container img {
+  width: 5rem;
+  transition: 0.2s;
+}
+
+.social-media-container img:hover {
+  transition: 0.2s;
+  cursor: pointer;
+  scale: 1.1;
 }
