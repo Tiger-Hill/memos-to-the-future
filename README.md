@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+(This application was created using "npx create-react-app")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Adding new articles to your website
 
-## Available Scripts
+To add new articles to your website, you only need to edit the "articlesData.js" file that contains all the information about your articles.
 
-In the project directory, you can run:
+Each article is represented as an object inside the articlesData array. Here's an explanation of the purpose of each attribute:
 
-### `npm start`
+- id: A unique identifier for each article. Make sure to provide a new id for each new article you add.
+- title: The title of the article.
+- subTitle: A short subtitle for the article, usually providing additional information or context about the content.
+- reference: A reference to the source or publication where the article was originally published or featured.
+- imageLink: A link to the image you want to use as a thumbnail for the article.
+- showPageContent: An object that contains the content of the article's show page, which is the page that displays the full content of the article. This object has the following attributes:
+- title: The title of the article as it will appear on the show page.
+- subText: Additional text that will appear on the show page, usually providing more details about the content of the article.
+- fileLinks: An array that can contain multiple links to files, such as videos or images, that you want to display on the show page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To add a new article, simply create a new object following the same structure as the existing articles, and add it to the articlesData array. Make sure to provide a new id for each new article you add.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For example, to add a new article with a title "My new article", a subtitle "A story about my cat", and an image located at "myimage.jpg", you can add the following object to the articlesData array:
 
-### `npm test`
+```
+{
+  id: 2,
+  title: "My new article",
+  subTitle: "A story about my cat",
+  reference: "",
+  imageLink: "myimage.jpg",
+  showPageContent: {
+    title: "My new article",
+    subText: (
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        elementum, velit vitae malesuada tempus, sapien velit vestibulum nisl,
+        quis dictum tellus neque quis est.
+      </p>
+    ),
+    fileLinks: [
+      {
+        title: "",
+        link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        type: "video",
+      },
+      {
+        title: "",
+        link: "https://picsum.photos/800/400",
+        type: "image",
+      },
+    ],
+  },
+},
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# memos-to-the-future
+That's it! Once you save the "articlesData.js" file, the new article will automatically be added to your website.
