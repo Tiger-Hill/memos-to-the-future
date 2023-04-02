@@ -12,9 +12,9 @@ Each article is represented as an object inside the articlesData array. Here's a
 - reference: A reference to the source or publication where the article was originally published or featured.
 - imageLink: A link to the image you want to use as a thumbnail for the article.
 - showPageContent: An object that contains the content of the article's show page, which is the page that displays the full content of the article. This object has the following attributes:
-- title: The title of the article as it will appear on the show page.
-- subText: Additional text that will appear on the show page, usually providing more details about the content of the article.
-- fileLinks: An array that can contain multiple links to files, such as videos or images, that you want to display on the show page.
+  - title: The title of the article as it will appear on the show page.
+  - subText: Additional text that will appear on the show page, usually providing more details about the content of the article.
+  - fileLinks: An array that can contain multiple links to files, such as videos or images, that you want to display on the show page.
 
 To add a new article, simply create a new object following the same structure as the existing articles, and add it to the articlesData array. Make sure to provide a new id for each new article you add.
 
