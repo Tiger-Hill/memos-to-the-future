@@ -178,6 +178,11 @@ article p {
 }
 
 /* TODO: REVIEW */
+@media (max-width: 1260px) {
+  .article-show iframe {
+      height: 50rem;
+    }
+}
 @media (max-width: 1050px) {
   .article-show iframe {
       height: 40rem;

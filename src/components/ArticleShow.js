@@ -11,10 +11,10 @@ const ArticleShow = () => {
       <h2>{articleData.title}</h2>
       {articleData.subText}
 
-      {articleData.fileLinks.map(file => {
+      {articleData.fileLinks.map((file,index) => {
         return (
           file.type === "video" && (
-            <>
+            <div key={index}>
               {file.title && <p className="file-title">{file.title}</p>}
               <iframe
                 src={file.link}
@@ -22,7 +22,7 @@ const ArticleShow = () => {
                 title="video which content matches the article's title"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               ></iframe>
-            </>
+            </div>
           )
         );
       })}
