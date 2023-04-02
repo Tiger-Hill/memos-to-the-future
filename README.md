@@ -20,7 +20,7 @@ To add a new article, simply create a new object following the same structure as
 
 For example, to add a new article with a title "My new article", a subtitle "A story about my cat", and an image located at "myimage.jpg", you can add the following object to the articlesData array:
 
-```
+```javascript
 {
   id: 2,
   title: "My new article",
