@@ -7,7 +7,7 @@ const ArticleCard = ({ articleData }) => {
       <h3>{articleData.subTitle}</h3>
       <Link to={`article/${articleData.id}`}>
         {/* <div className="image-container"> */}
-          <img src={articleData.imageLink} alt="article's image" />
+        <img src={articleData.imageLink} alt="article's image" loading="lazy" />
         {/* </div> */}
       </Link>
       <p>{articleData.reference}</p>
