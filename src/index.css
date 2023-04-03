@@ -109,7 +109,7 @@ article img {
 
 article img:hover {
   transition: 0.2s;
-  scale: 1.01;
+  /* scale: 1.01; */
 }
 
 article h2 {
@@ -253,4 +253,5 @@ footer {
 .social-media-container img:hover {
   transition: 0.2s;
   cursor: pointer;
+  scale: 1.1;
 }
